@@ -1,0 +1,8 @@
+.env
+.DS_Store
+*.log
+mysql-data/
+.idea/
+.vscode/
+citas-api/
+citas-web/
