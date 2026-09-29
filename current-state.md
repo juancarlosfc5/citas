@@ -128,3 +128,9 @@ Ejecutado según `PLAN_CIERRE_AGENDAMIENTO_S3.md`. Evidencia completa: `citas-ap
 - Suites: Maven 22/22, Vitest 23/23, lint y build OK.
 - Servicios en ejecución: API `http://localhost:8080` (perfil `local`), web `http://localhost:5173` (Vite en el contenedor desde `/opt/web`). Comandos de arranque en `PLAN_TRABAJO_CIERRE_S3.md`.
 - Pendiente: commits separados en `develop` (los cambios S5 previos y `.obsidian/graph.json` no deben mezclarse); luego continuar S5 (n8n) según este documento.
+
+## Actualización 2026-09-29 — calendario USER
+
+- Nuevo endpoint `GET /api/v1/availability/days` y modal de reserva en 3 pasos con calendario (evidencia `citas-api/docs/FCV Dev/evidence/UX-calendario-user.md`, plan `PLAN_TRABAJO_CALENDARIO_USER.md`).
+- Semilla dev: `.\citas-api\scripts\seed-dev-agenda.ps1` (agenda 29-sep a 15-oct-2026, idempotente).
+- Maven 23/23, Vitest 27/27. Cambios sin commit en ambos repos.
